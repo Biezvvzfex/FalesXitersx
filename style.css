@@ -1,0 +1,114 @@
+/* Estilo geral */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e1e;
+  color: #f9f9f9;
+}
+
+/* Container principal */
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Título */
+h1 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* Detalhes */
+.details {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #bbb;
+}
+
+/* Total */
+.total {
+  margin: 20px 0;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* QR Code */
+.qr-code-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.qr-code-container img {
+  margin: 10px 0;
+}
+
+.pix-code {
+  background: #444;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+  color: #f9f9f9;
+  word-break: break-all;
+}
+
+/* Timer */
+.timer {
+  margin-top: 15px;
+  font-size: 16px;
+  text-align: center;
+  color: #ffcc00;
+}
+
+.expired {
+  color: #ff6b6b;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Mensagem */
+.message {
+  margin: 20px 0;
+  padding: 15px;
+  background: #27ae60;
+  color: #fff;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Botões */
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: 16px;
+  color: #fff;
+  background: #27ae60;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  background: #219150;
+}
+
+
